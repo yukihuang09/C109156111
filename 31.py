@@ -1,0 +1,16 @@
+a=int(input("國:"))
+b=int(input("英:"))
+c=int(input("數:"))
+d=int(input("體:"))
+e=int(input("程設:"))
+ans=(a+b+c+d+e)/5
+t=[]
+t.append(a)
+t.append(b)
+t.append(c)
+t.append(d)
+t.append(e)
+t.sort()
+print("平均分數:"+str(round(ans,2)))
+print("最高分科目"+str(t[4]))
+print("最低分科目"+str(t[0]))
